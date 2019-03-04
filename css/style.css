@@ -1,0 +1,206 @@
+* ,body{
+    padding: 0;
+    margin: 0;  
+}
+ img{
+    width: 100%;
+} 
+.wapper{
+    background-image: url('../images/bg.png');
+}
+.login_cover{
+    background: white;
+   padding: 0px 10px;
+   padding-top: 10px;
+  
+}
+.login .login_content input{
+    width: 60%;
+    height: 30px;
+    background: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  
+}
+.login_accout ul li{
+    border-right: 1px solid #eee;
+    padding-right: 10px ;
+
+}
+.login_accout ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+}
+.menu_top ul li{
+    padding:0px 5px;   
+}
+.menu_top .navbar-nav  .nav-link:hover{
+    color: white!important;
+
+
+}
+
+.menu_top ul li:hover 
+{   background-color: rgb(235,72,0);
+}
+.carousel-control-next, .carousel-control-prev{
+    top: 175px;
+    height: 7%; 
+}
+.carousel-control-prev{
+    left: 40px;
+}
+.carousel-control-next{
+    right: 40px;
+}
+.menu_top {
+    border-bottom: 5px solid rgb(235,72,0);
+    box-shadow: 0px 0px 5px #888888;
+    padding: 0 0px;
+    background: #F9F9F9;
+}
+.login_accout ul li:last-child{
+    border-right: none;
+    
+}
+.text_cover{
+    width: 80%;
+    margin: auto;
+}
+.between{
+    background: url("../images/line_bar.png") 0 8px repeat-x;
+    background-position: 0 8px;
+    width: 100%;
+  
+} 
+.pull_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.text{
+    padding: 0px 10px;
+}
+.card-body{
+    background-color: rgb(248,248,248);
+}
+.card:hover .card-body{
+    background-color:#eb4800 ;
+    transition: 0.5s;
+    
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.card{
+    border: none;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px #ccc;
+    transition: 0.5s;
+    
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.card:hover .card-body h5,.card:hover .card-body p{
+    color: white;
+}
+.card-body h5{
+    font-size: 14px;
+}
+.card-body p{
+    color: #eb4800;
+}
+
+.product_new{
+    background: white;
+    padding: 20px 10px;
+}
+.customNavigation{
+    background-color: rgb(248,248,248);
+    transform: translateY(-6px);
+    margin-left: 10px;
+}
+.customNavigation>a:hover{
+    background-color: #eb4800;
+    color: white!important;
+}
+#myProductlast .card img{
+    width: 169px;
+    height: 220px;
+}
+.icon_cover .icon_hover{
+    font-size:45px;
+    color: white;
+ 
+
+}
+
+.icon_cover .icon_hover:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.icon_cover .icon_hover{
+    width: 80px;
+    height: 80px;
+    background-color:#eb4800 ;
+    padding: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.icon_next,.market{
+    padding-top: 10px;
+    background-color: white;
+}
+.market img{
+  
+    padding: 15px 20px;
+}
+.footer_head img{
+    width: 30%;
+
+}
+.footer_head p{
+    color: #777;
+}
+.bg-color{
+    background-color:#242424;
+    padding: 20px 30px;
+}
+.Navigation ul li a{
+    color: white;
+}
+.bg_head{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.bg_head p{
+    font-size: 12px;
+    color: white;
+   
+}
+
+
+
