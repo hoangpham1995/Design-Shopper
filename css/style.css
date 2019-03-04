@@ -168,7 +168,7 @@
     -o-border-radius: 50%;
 }
 .icon_next,.market{
-    padding-top: 10px;
+    padding: 20px 0px;
     background-color: white;
 }
 .market img{
